@@ -50,8 +50,8 @@ justify-content: center;
 #contact-info, #contact-info-small {
     font-size: 24px;
     color: rgb(0, 0, 0);
-    font-weight: 350; 
-    letter-spacing: 1px; 
+    font-weight: 200; 
+    letter-spacing: 1.5px; 
     font-family: 'Raleway';
     text-align: center;
     margin-top: -340px; 
@@ -77,14 +77,10 @@ justify-content: center;
 /* // MEDIA QUERIES  */
 @media (max-width: 480px) {
     #coming-soon {
-        font-size: 27px; 
-        margin-top: -8px;
         display: none; 
     }
 
     #contact-info {
-        font-size: 21px;
-        margin-top: -5px;
         display: none; 
     }
 
@@ -102,7 +98,7 @@ justify-content: center;
     #contact-info-small {
       display: block; 
       margin-top: 5px;
-      font-size: 21px; 
+      font-size: 18px; 
   }
 }
   
@@ -110,12 +106,14 @@ justify-content: center;
   #coming-soon-small {
       display: block; 
       font-size: 25px; 
+      letter-spacing: 2px; 
   }
   
   #contact-info-small {
       display: block; 
-      margin-top: 5px;
-      font-size: 18px; 
+      margin-top: 10px;
+      font-weight: 200; 
+      font-size: 16px; 
   }
   .container-ball {
     display: none; 
